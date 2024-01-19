@@ -1,7 +1,7 @@
 import { Circle, Flex, IconButton, useColorMode } from '@chakra-ui/react';
 import React from 'react';
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
-import { useColorScheme } from '../../../hooks';
+import { useColorScheme } from '@/hooks';
 
 const AVAILABLE_COLOR_SCHEMES = [
   'gray',
